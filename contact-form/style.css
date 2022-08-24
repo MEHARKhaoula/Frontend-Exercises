@@ -15,6 +15,8 @@ input[type=text],select,textarea{
     border-radius:4px;
     margin-top:6px;
     margin-bottom: 16px;
+   
+  
     box-sizing: border-box;
     resize: vertical;
 }
@@ -30,3 +32,6 @@ input[type=submit]:hover {
     background-color:#f2f2f2;
     padding:20px;
   }
+
+
+  
