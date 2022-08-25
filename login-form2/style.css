@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
+
+
+*{
+    font-family: Roboto;
+}
+
+
+.container{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+ align-items: center;
+ min-height:100vh;
+ background-color:#2c3338
+
+}
+
+input[type=text],input[type=password]{
+    padding:16px;
+    flex:1;
+   align-items: baseline;
+   background-color:#3b4148;
+   border:none;
+   font-size: 16px;
+
+
+
+}
+
+input[type=submit]{
+    flex:1;
+    padding:16px;
+    font-weight:bold;
+    background-color: #ea4c88;
+    border:none;
+    color:white;
+
+}
+.fas{
+    color:#606468;
+}
+
+.form_field{
+    width:100%;
+    display:flex;
+    margin:14px;
+    
+}
+
+.create{
+    width:100%;
+    display:flex;
+    margin:0 14px;
+    justify-content: center;
+
+
+    
+}
+
+p{
+    color:#606468;
+}
+
+p a{
+    text-decoration: none;
+    color:white;
+}
+
+label{
+    background-color: #363b41;
+    padding:16px 20px
+   
+}
