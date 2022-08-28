@@ -155,3 +155,19 @@ box-shadow: 0 3px 6px 1px #042d4657;
 .box-form .left .overlay span a:last-child{
     background-color: #1dcaff
 }
+
+@media (max-width: 980px) {
+    .box-form {
+      flex-flow: wrap;
+      text-align: center;
+      align-content: center;
+      align-items: center;
+    }
+  }
+
+
+  @media (max-width: 980px) {
+    .box-form .right {
+      width: 100%;
+    }
+  }
